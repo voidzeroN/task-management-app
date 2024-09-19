@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルタスク管理アプリ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>シンプルタスク管理アプリ</h1>
+    <button id="addTaskBtn">タスク追加</button>
+    
+    <div id="taskForm" class="hidden">
+        <h2 id="formTitle" class="new-task">新しいタスクを追加</h2>
+        <input type="text" id="taskInput" placeholder="タスク内容">
+        <input type="datetime-local" id="dateInput">
+        <button id="saveTaskBtn">保存</button>
+        <button id="cancelTaskBtn">キャンセル</button>
+    </div>
+    
+    <ul id="taskList"></ul>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
